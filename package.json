@@ -15,12 +15,12 @@
 	"options": {
 		"salesforce": {
 			"serviceCloud": {
-				"username": "<YOUR SERVICE CLOUD USERNAME>",
-				"password": "<YOUR SERVICE CLOUD PASSWORD>",
+				"username": "sean.keane@developer.demo",
+				"password": "?S7password",
 				"loginUrl": "https://login.salesforce.com"
 			},
 			"marketingCloud": {
-				"jwtSecret": "<YOUR UNCONVERTED SALT KEY HERE>"
+				"jwtSecret": "OoHSUmGqd9-ad7MbAi5QRKzj0on5IjXmG8QnILzO-sEDM_OfR7ELnzIzX6C8HhpPn6-9SSYN1hfT6_OTAInzzAzFwtC08ToOKjCYenfHnNdbq-hpnlDZMnoJxaNCE1l6lhtACzvWZ1tP5jNw9gzRuVyd4oUC6IR8eJ-dUl0HDGPwqYRkGnLJETOoWvybLE_9fU4fp9anG-Y3TdKOrr96ZLtyIvHcSbgeBlZyecvNYFEePoNbdrCsZDruM1kTNw2"
 			}
 		}
 	}
