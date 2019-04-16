@@ -13,27 +13,27 @@
 	},
 	"workflowApiVersion": "1.1",
 	"configurationArguments": {
-		"applicationExtensionKey": "<YOUR APPLICATION EXTENSION KEY HERE>",
+		"applicationExtensionKey": "be8c04c9-4fcc-4eb1-a4b8-7fdb44cd52df",
 		"save": {
-			"url": "https://<URL OF THE SERVER RUNNING THE BACKEND>/activity/save",
+			"url": "https://jbcustomsplit.herokuapp.com/activity/save",
 			"verb": "POST",
 			"body": "",
 			"useJwt": true,
-			"customerKey": "<EXTERNAL KEY OF THE SALT KEY FOR THE JWT>"
+			"customerKey": "OoHSUmGqd9-ad7MbAi5QRKzj0on5IjXmG8QnILzO-sEDM_OfR7ELnzIzX6C8HhpPn6-9SSYN1hfT6_OTAInzzAzFwtC08ToOKjCYenfHnNdbq-hpnlDZMnoJxaNCE1l6lhtACzvWZ1tP5jNw9gzRuVyd4oUC6IR8eJ-dUl0HDGPwqYRkGnLJETOoWvybLE_9fU4fp9anG-Y3TdKOrr96ZLtyIvHcSbgeBlZyecvNYFEePoNbdrCsZDruM1kTNw2"
 		},
 		"publish": {
-			"url": "https://<URL OF THE SERVER RUNNING THE BACKEND>/activity/publish",
+			"url": "https://jbcustomsplit.herokuapp.com/activity/publish",
 			"verb": "POST",
 			"body": "",
 			"useJwt": true,
-			"customerKey": "<EXTERNAL KEY OF THE SALT KEY FOR THE JWT>"
+			"customerKey": "OoHSUmGqd9-ad7MbAi5QRKzj0on5IjXmG8QnILzO-sEDM_OfR7ELnzIzX6C8HhpPn6-9SSYN1hfT6_OTAInzzAzFwtC08ToOKjCYenfHnNdbq-hpnlDZMnoJxaNCE1l6lhtACzvWZ1tP5jNw9gzRuVyd4oUC6IR8eJ-dUl0HDGPwqYRkGnLJETOoWvybLE_9fU4fp9anG-Y3TdKOrr96ZLtyIvHcSbgeBlZyecvNYFEePoNbdrCsZDruM1kTNw2"
 		},
 		"validate": {
-			"url": "https://<URL OF THE SERVER RUNNING THE BACKEND>/activity/validate",
+			"url": "https://jbcustomsplit.herokuapp.com/activity/validate",
 			"verb": "POST",
 			"body": "",
 			"useJwt": true,
-			"customerKey": "<EXTERNAL KEY OF THE SALT KEY FOR THE JWT>"
+			"customerKey": "OoHSUmGqd9-ad7MbAi5QRKzj0on5IjXmG8QnILzO-sEDM_OfR7ELnzIzX6C8HhpPn6-9SSYN1hfT6_OTAInzzAzFwtC08ToOKjCYenfHnNdbq-hpnlDZMnoJxaNCE1l6lhtACzvWZ1tP5jNw9gzRuVyd4oUC6IR8eJ-dUl0HDGPwqYRkGnLJETOoWvybLE_9fU4fp9anG-Y3TdKOrr96ZLtyIvHcSbgeBlZyecvNYFEePoNbdrCsZDruM1kTNw2"
 		}
 	},
 	"wizardSteps": [
@@ -76,7 +76,7 @@
 			"header": "",
 			"format": "json",
 			"useJwt": true,
-			"customerKey": "<EXTERNAL KEY OF THE SALT KEY FOR THE JWT>",
+			"customerKey": "OoHSUmGqd9-ad7MbAi5QRKzj0on5IjXmG8QnILzO-sEDM_OfR7ELnzIzX6C8HhpPn6-9SSYN1hfT6_OTAInzzAzFwtC08ToOKjCYenfHnNdbq-hpnlDZMnoJxaNCE1l6lhtACzvWZ1tP5jNw9gzRuVyd4oUC6IR8eJ-dUl0HDGPwqYRkGnLJETOoWvybLE_9fU4fp9anG-Y3TdKOrr96ZLtyIvHcSbgeBlZyecvNYFEePoNbdrCsZDruM1kTNw2",
 			"timeout": 90000
 		}
 	},
